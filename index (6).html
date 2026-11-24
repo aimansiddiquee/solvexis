@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Solvexis — Design Services, Study Notes &amp; Free Templates | by aimen</title>
+<meta name="description" content="Solvexis by aimen: website design, branding, video editing, presentations, digital marketing, plus free study notes (IT, CS, Cybersecurity, Calculus, Information Security) and templates.">
+<meta property="og:title" content="Solvexis — by aimen"><meta property="og:description" content="A system built to solve problems with clarity, structure and precision.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E✦%3C/text%3E%3C/svg%3E">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAF8F5;--card:#fff;--ink:#1A1D24;--mute:#5d6270;--gold:#C5A059;--em:#0f5c4a;--line:#e8e2d6;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:80px}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;line-height:1.1;margin:0 0 .4em}
+h1{font-size:clamp(2.6rem,7vw,5rem)}h2{font-size:clamp(2rem,4.5vw,3rem)}h3{font-size:1.5rem}
+a{color:inherit}.wrap{max-width:1140px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:rgba(250,248,245,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.logo{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:700;text-decoration:none;line-height:1}
+.logo small{display:block;font:italic 500 .7rem Inter;color:var(--gold);letter-spacing:.12em}
+nav{display:flex;gap:20px;font-size:.92rem}nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+.btn{display:inline-block;border:1px solid var(--ink);background:var(--ink);color:#fff;padding:11px 22px;border-radius:999px;font:500 .92rem Inter;cursor:pointer;text-decoration:none;transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(26,29,36,.18)}
+.btn.g{background:transparent;color:var(--ink)}.btn.gold{background:var(--gold);border-color:var(--gold)}.btn.s{padding:7px 15px;font-size:.82rem}
+.hero{padding:90px 0 70px;background:radial-gradient(900px 400px at 85% 0,#f3e8cf 0,transparent 70%)}
+.eyebrow{color:var(--gold);letter-spacing:.2em;font-size:.75rem;text-transform:uppercase;font-weight:600}
+.hero p{max-width:620px;font-size:1.15rem;color:var(--mute)}.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.stats{display:flex;gap:36px;margin-top:44px;flex-wrap:wrap}.stats b{font:600 2rem 'Cormorant Garamond',serif;display:block}
+section{padding:72px 0}.alt{background:#fff;border-block:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin-top:28px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 2px 14px rgba(26,29,36,.04);transition:.3s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(197,160,89,.2)}
+.card ul{padding-left:18px;color:var(--mute);font-size:.9rem;margin:6px 0 16px}.card .btn{margin-top:auto;align-self:flex-start}
+.tag{font-size:.72rem;color:var(--em);background:#e6f2ee;border-radius:99px;padding:2px 10px;display:inline-block;margin-bottom:8px;font-weight:600;align-self:flex-start}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:99px;padding:7px 16px;cursor:pointer;font:500 .88rem Inter}.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font:inherit;background:#fff;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:transparent}
+.bar input{max-width:260px}
+.sw{display:flex;gap:6px;margin:6px 0 10px}.sw i{width:28px;height:28px;border-radius:50%;border:1px solid var(--line)}
+.opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin:8px 0 16px}
+.opts label{border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;gap:8px;align-items:center;cursor:pointer;font-size:.9rem;background:#fff}
+.opts input{width:auto}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ov{position:fixed;inset:0;background:rgba(26,29,36,.5);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:50;padding:16px}.ov.on{display:flex}
+.modal{background:var(--bg);border-radius:22px;max-width:760px;width:100%;max-height:90vh;overflow:auto;padding:30px;position:relative;animation:up .35s}
+.modal.sm{max-width:440px}.x{position:absolute;right:16px;top:12px;border:0;background:none;font-size:1.8rem;cursor:pointer;color:var(--mute)}
+@keyframes up{from{opacity:0;transform:translateY(20px)}}
+.doc h3{margin-top:1.2em;border-bottom:1px solid var(--line);padding-bottom:4px}
+.doc pre{background:#1A1D24;color:#f3ead7;padding:14px;border-radius:12px;overflow-x:auto;font-size:.82rem;line-height:1.5}
+.doc li,.doc p{color:#33363f}.doc table{border-collapse:collapse;width:100%;font-size:.9rem}.doc td,.doc th{border:1px solid var(--line);padding:6px 10px;text-align:left}
+.foot{border-top:1px solid var(--line);margin-top:26px;padding-top:12px;font-size:.8rem;color:var(--mute)}
+iframe{width:100%;height:420px;border:1px solid var(--line);border-radius:12px;background:#fff}
+footer{padding:44px 0;text-align:center;color:var(--mute);font-size:.88rem;border-top:1px solid var(--line)}
+footer b{font:700 1.5rem 'Cormorant Garamond',serif;color:var(--ink);display:block}
+.ok{background:#e6f2ee;border:1px solid #b9dccf;padding:16px;border-radius:14px}
+#print{display:none}
+@media(max-width:760px){nav{display:none}.row{grid-template-columns:1fr}.bar input{max-width:none;width:100%}.hero{padding:56px 0}}
+@media print{body>*:not(#print){display:none!important}#print{display:block;padding:24px;font:12pt/1.5 Georgia,serif}#print pre{background:#f4f1ea;color:#000;padding:8px;white-space:pre-wrap}#print h3{border-bottom:1px solid #999}}
+</style></head><body>
+<header><div class="wrap nav"><a class="logo" href="#top">Solvexis<small>by aimen</small></a>
+<nav><a href="#services">Services</a><a href="#notes">Notes</a><a href="#ppt">Presentations</a><a href="#web">Web Templates</a></nav>
+<a class="btn s gold" href="#inquiry">Start a project</a></div></header>
+<main id="top">
+<div class="hero"><div class="wrap"><div class="eyebrow">Studio · Study Hub · Template Library</div>
+<h1>Problems solved with clarity, structure &amp; precision.</h1>
+<p>Solvexis is a hub where design agency craft meets academic resources: bespoke digital services, study notes you can read and print, and free templates ready to use.</p>
+<div class="cta"><a class="btn" href="#services">Explore Services</a><a class="btn g" href="#notes">Browse Notes</a><a class="btn g" href="#ppt">Preview Templates</a><button class="btn gold" onclick="gate(()=>{})">Request Access</button></div>
+<div class="stats"><div><b>8</b>Services</div><div><b>10</b>Study notes</div><div><b>6</b>Free templates</div></div></div></div>
+
+<section id="services"><div class="wrap"><div class="eyebrow">What we do</div><h2>Services, scoped with care</h2><div class="grid" id="sv"></div></div></section>
+
+<section id="notes" class="alt"><div class="wrap"><div class="eyebrow">Subject Notes Hub</div><h2>Real notes. Read, unlock, print to PDF.</h2>
+<div class="bar" id="chips"></div><div class="bar" style="margin-top:12px"><input id="q" placeholder="Search notes…" oninput="drawNotes()"></div><div class="grid" id="nt"></div></div></section>
+
+<section id="ppt"><div class="wrap"><div class="eyebrow">Free</div><h2>Presentation templates</h2><p style="color:var(--mute)">Structured slide outlines, palettes and type pairings. Open the spec, copy it, or save it as PDF.</p><div class="grid" id="pp"></div></div></section>
+
+<section id="web" class="alt"><div class="wrap"><div class="eyebrow">Pre-made</div><h2>Website templates</h2><p style="color:var(--mute)">Live preview, then copy the full HTML to use as your starting point.</p><div class="grid" id="wb"></div></div></section>
+
+<section id="inquiry"><div class="wrap" style="max-width:760px"><div class="eyebrow">Inquiry</div><h2>Tell us what you need</h2>
+<form id="f" onsubmit="return sendInq(event)"><div class="opts" id="opts"></div>
+<div class="row"><input id="fn" required placeholder="Your name"><input id="fe" type="email" required placeholder="Email"></div><br>
+<select id="fb"><option>Budget: flexible</option><option>Under $250</option><option>$250 – $1,000</option><option>$1,000+</option></select><br><br>
+<textarea id="fd" rows="5" required placeholder="Describe your project, goals and deadline…"></textarea><br><br>
+<button class="btn" type="submit">Submit request</button></form><div id="done"></div></div></section>
+</main>
+<footer><b>Solvexis</b>A system built to solve problems with clarity, structure and precision.<br>© 2026 by aimen. All Rights Reserved.</footer>
+
+<div class="ov" id="ov-a"><div class="modal sm"><button class="x" onclick="closeM('ov-a')">×</button><h3>Request access</h3><p style="color:var(--mute);margin-top:0">Enter your details to unlock instantly. No waiting, no approval queue.</p>
+<form onsubmit="return unlock(event)"><input id="an" required placeholder="Name"><br><br><input id="ae" type="email" required placeholder="Email"><br><br><button class="btn gold" style="width:100%">Unlock now</button></form></div></div>
+<div class="ov" id="ov-r"><div class="modal doc"><button class="x" onclick="closeM('ov-r')">×</button><div id="rd"></div></div></div>
+<div id="print"></div>
+
+<script>
+const $=s=>document.querySelector(s),C='© 2026 by aimen. All Rights Reserved.';
+const SV=[
+["Website Design & Development","Responsive, fast, conversion-minded sites.",["Sitemap & wireframes","Custom UI design","Built, tested, launched","2 revision rounds"]],
+["Logo & Complete Brand Kit","A full identity system, not just a mark.",["3 logo concepts","Palette & typography","Brand guidelines PDF","Social & stationery set"]],
+["Graphic & Social Post Design","Consistent, scroll-stopping visuals.",["Post & story templates","Editable source files","Carousel layouts","Monthly packs available"]],
+["Video Editing","Clean cuts, pacing, captions and sound.",["Reels, promos, explainers","Color & audio polish","Captions & subtitles","Multi-format exports"]],
+["Presentation Design","Decks that make ideas land.",["Custom master slides","Data & chart styling","Speaker-ready layouts","Free templates below"]],
+["Academic & Technical Projects","Well-structured project design and documentation.",["Diagrams & architecture","Reports & posters","Prototype support","Citation-ready formatting"]],
+["Digital Marketing","Strategy that is measured, not guessed.",["Audience & channel plan","Content calendar","Campaign setup","Monthly performance report"]],
+["Complete Brand Design","Positioning, voice and visuals, unified.",["Brand strategy sheet","Voice & messaging","Visual system","Launch assets"]]];
+const NOTES=[
+["IT","Networking Fundamentals","OSI &amp; TCP/IP, IP addressing, core protocols",[["The layers","<p>OSI has seven layers: Physical, Data Link, Network, Transport, Session, Presentation, Application. TCP/IP collapses these into Link, Internet, Transport and Application.</p>"],["Key protocols","<table><tr><th>Protocol</th><th>Port</th><th>Role</th></tr><tr><td>HTTP/HTTPS</td><td>80/443</td><td>Web</td></tr><tr><td>DNS</td><td>53</td><td>Name resolution</td></tr><tr><td>SSH</td><td>22</td><td>Secure shell</td></tr><tr><td>SMTP</td><td>25</td><td>Mail send</td></tr></table>"],["Subnetting","<p>A /24 mask (255.255.255.0) gives 2<sup>8</sup>−2 = 254 usable hosts. Formula: hosts = 2<sup>(32−prefix)</sup> − 2.</p><pre>192.168.1.0/26 → 62 hosts\nRange: .1 – .62, broadcast .63</pre>"]]],
+["IT","Databases &amp; SQL Essentials","Relational design, normalization, queries",[["Concepts","<ul><li><b>Primary key</b>: unique row identifier</li><li><b>Foreign key</b>: link between tables</li><li><b>ACID</b>: Atomicity, Consistency, Isolation, Durability</li></ul>"],["Normalization","<p>1NF: atomic values. 2NF: no partial dependency on a composite key. 3NF: no transitive dependency.</p>"],["Queries","<pre>SELECT c.name, COUNT(o.id) AS orders\nFROM customers c\nLEFT JOIN orders o ON o.customer_id = c.id\nGROUP BY c.name\nHAVING COUNT(o.id) &gt; 2\nORDER BY orders DESC;</pre>"]]],
+["CS","Data Structures &amp; Big-O","Complexity, arrays, lists, trees, hash maps",[["Complexity","<table><tr><th>Structure</th><th>Access</th><th>Search</th><th>Insert</th></tr><tr><td>Array</td><td>O(1)</td><td>O(n)</td><td>O(n)</td></tr><tr><td>Linked list</td><td>O(n)</td><td>O(n)</td><td>O(1)*</td></tr><tr><td>Hash map</td><td>O(1)</td><td>O(1)</td><td>O(1)</td></tr><tr><td>BST (balanced)</td><td>O(log n)</td><td>O(log n)</td><td>O(log n)</td></tr></table><p>*at a known node. Hash maps are average-case.</p>"],["Rules of thumb","<ul><li>Drop constants and lower-order terms.</li><li>Nested loops over n multiply: O(n²).</li><li>Halving each step gives O(log n).</li></ul>"]]],
+["CS","Algorithms: Search &amp; Sort","Binary search, merge sort, recursion",[["Binary search","<p>Requires sorted input. Runs in O(log n).</p><pre>def bsearch(a, t):\n    lo, hi = 0, len(a) - 1\n    while lo &lt;= hi:\n        mid = (lo + hi) // 2\n        if a[mid] == t: return mid\n        if a[mid] &lt; t: lo = mid + 1\n        else: hi = mid - 1\n    return -1</pre>"],["Merge sort","<p>Divide, sort halves, merge. Recurrence T(n) = 2T(n/2) + n, so O(n log n) time and O(n) space. Stable.</p>"]]],
+["Cybersecurity","Threats &amp; the OWASP Top Risks","Common attacks and how to defend",[["Attack types","<ul><li><b>Phishing</b>: deceptive messages harvesting credentials</li><li><b>SQL injection</b>: untrusted input altering queries</li><li><b>XSS</b>: scripts injected into pages</li><li><b>Ransomware</b>: encryption for extortion</li></ul>"],["Defences","<pre># Parameterized query (safe)\ncur.execute(\"SELECT * FROM users WHERE id = %s\", (uid,))</pre><ul><li>Validate input; encode output</li><li>Least privilege and MFA</li><li>Patch quickly; log and monitor</li></ul>"]]],
+["Cybersecurity","Incident Response Lifecycle","NIST-style phases and a practical checklist",[["Phases","<ol><li>Preparation</li><li>Detection &amp; analysis</li><li>Containment, eradication &amp; recovery</li><li>Post-incident review</li></ol>"],["First-hour checklist","<ul><li>Isolate affected hosts; do not power off if evidence is needed</li><li>Preserve logs and take timestamps</li><li>Notify the incident lead; open a record</li><li>Rotate exposed credentials</li></ul>"]]],
+["Calculus","Differentiation Toolkit","Limits, rules and applications",[["Core rules","<table><tr><th>Rule</th><th>Formula</th></tr><tr><td>Power</td><td>d/dx xⁿ = n·xⁿ⁻¹</td></tr><tr><td>Product</td><td>(uv)′ = u′v + uv′</td></tr><tr><td>Quotient</td><td>(u/v)′ = (u′v − uv′)/v²</td></tr><tr><td>Chain</td><td>d/dx f(g(x)) = f′(g(x))·g′(x)</td></tr></table>"],["Common derivatives","<p>(sin x)′ = cos x · (cos x)′ = −sin x · (eˣ)′ = eˣ · (ln x)′ = 1/x</p>"],["Optimization","<p>Find f′(x)=0, check f″(x): positive means a minimum, negative means a maximum. Check endpoints too.</p>"]]],
+["Calculus","Integration &amp; Series","Techniques, FTC and Taylor series",[["Fundamental Theorem","<p>∫ₐᵇ f(x)dx = F(b) − F(a), where F′ = f.</p>"],["Techniques","<ul><li><b>Substitution</b>: u = g(x), du = g′(x)dx</li><li><b>By parts</b>: ∫u dv = uv − ∫v du</li></ul><p>Example: ∫x·eˣdx = x·eˣ − eˣ + C</p>"],["Taylor series","<p>f(x) = Σ f⁽ⁿ⁾(a)(x−a)ⁿ / n!. So eˣ = 1 + x + x²/2! + x³/3! + …</p>"]]],
+["Information Security","CIA Triad &amp; Risk Management","Foundational principles and risk formulas",[["The triad","<ul><li><b>Confidentiality</b>: only authorized access</li><li><b>Integrity</b>: data is accurate and unaltered</li><li><b>Availability</b>: systems usable when needed</li></ul>"],["Risk","<p>Risk = Likelihood × Impact. Treatments: mitigate, transfer, avoid, accept.</p><p>ALE = SLE × ARO (single loss expectancy × annual rate of occurrence).</p>"],["Controls","<p>Administrative (policy), technical (encryption, firewalls), physical (locks, CCTV). Layer them: defence in depth.</p>"]]],
+["Information Security","Cryptography Basics","Symmetric, asymmetric, hashing, signatures",[["Families","<table><tr><th>Type</th><th>Example</th><th>Use</th></tr><tr><td>Symmetric</td><td>AES-256</td><td>Bulk encryption</td></tr><tr><td>Asymmetric</td><td>RSA, ECC</td><td>Key exchange, signatures</td></tr><tr><td>Hash</td><td>SHA-256</td><td>Integrity, passwords (with salt)</td></tr></table>"],["Practice","<ul><li>Never invent your own cipher.</li><li>Hash passwords with bcrypt or Argon2.</li><li>Use TLS 1.2+ in transit.</li></ul>"]]]];
+const SUBJ=["All Subjects","IT","CS","Cybersecurity","Calculus","Information Security"];
+const PPT=[["Executive Pitch","#1A1D24","#C5A059","#FAF8F5","Cormorant Garamond + Inter",["Title","Problem","Solution","Market","Product","Traction","Business model","Team","Ask"]],
+["Academic Defense","#0f5c4a","#C5A059","#FFFFFF","Georgia + Inter",["Title & abstract","Research question","Literature review","Method","Results","Discussion","Limitations","References"]],
+["Creative Portfolio","#2b3a67","#e9b872","#FAF8F5","Playfair Display + Inter",["Cover","About","Selected work ×3","Process","Testimonials","Contact"]]];
+const WEB=[["Agency / Portfolio","#FAF8F5","#C5A059","Crafted digital work","We design brands and sites that feel inevitable.",["Work","Services","About","Contact"]],
+["SaaS / Tech Landing","#f4f8ff","#2b5cff","Ship faster, with clarity","The workspace that keeps teams aligned.",["Features","Pricing","Docs","Sign in"]],
+["Brand Showcase","#ffffff","#0f5c4a","Made with intention","A small-batch brand with a big point of view.",["Story","Shop","Journal","Visit"]]];
+let unl=false,pend=null,flt="All Subjects";
+const closeM=i=>$('#'+i).classList.remove('on'),openM=i=>$('#'+i).classList.add('on');
+function gate(cb){if(unl){cb();return}pend=cb;openM('ov-a')}
+function unlock(e){e.preventDefault();unl=true;closeM('ov-a');const f=pend;pend=null;f&&f();refresh();return false}
+function refresh(){drawNotes();pbtn()}
+$('#sv').innerHTML=SV.map((s,i)=>`<div class="card"><span class="tag">Service ${i+1}</span><h3>${s[0]}</h3><p style="margin:0;color:var(--mute)">${s[1]}</p><ul>${s[2].map(x=>`<li>${x}</li>`).join('')}</ul><button class="btn s" onclick="pick(${i})">Request service</button></div>`).join('');
+$('#opts').innerHTML=SV.map((s,i)=>`<label><input type="checkbox" id="o${i}" value="${s[0]}">${s[0]}</label>`).join('');
+function pick(i){$('#o'+i).checked=true;location.hash='inquiry'}
+$('#chips').innerHTML=SUBJ.map(s=>`<button class="chip${s==flt?' on':''}" onclick="flt=this.textContent;chips();drawNotes()">${s}</button>`).join('');
+function chips(){document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c.textContent==flt))}
+const lbl=a=>unl?a:'Request access';
+function drawNotes(){const q=$('#q').value.toLowerCase();const L=NOTES.map((n,i)=>[n,i]).filter(([n])=>(flt=="All Subjects"||n[0]==flt)&&(n[1]+n[2]+n[0]).toLowerCase().includes(q));
+$('#nt').innerHTML=L.length?L.map(([n,i])=>`<div class="card"><span class="tag">${n[0]}</span><h3>${n[1]}</h3><p style="margin:0 0 14px;color:var(--mute);font-size:.92rem">${n[2]}</p><button class="btn s" onclick="gate(()=>readNote(${i}))">${lbl('Open note')}</button></div>`).join(''):'<p>No notes match your search.</p>'}
+function readNote(i){const n=NOTES[i];doc(n[1].replace(/&amp;/g,'&'),n[0]+' · Study note',n[3].map(s=>`<h3>${s[0]}</h3>${s[1]}`).join(''))}
+function doc(t,sub,html,extra){window._d=[t,sub,html];$('#rd').innerHTML=`<div class="eyebrow">${sub}</div><h2>${t}</h2><div>${html}</div><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px"><button class="btn s gold" onclick="pdf()">Save as PDF / Print</button>${extra||''}</div><div class="foot">${C} · by aimen</div>`;openM('ov-r')}
+function pdf(){const[t,s,h]=window._d;$('#print').innerHTML=`<p style="letter-spacing:.2em;font-size:9pt">SOLVEXIS · BY AIMEN</p><h1 style="font-size:24pt">${t}</h1><p><i>${s}</i></p>${h}<hr><p style="font-size:9pt">${C} · by aimen · Solvexis</p>`;window.print()}
+function copy(t,btn){const ok=()=>btn.textContent='Copied ✓';navigator.clipboard?navigator.clipboard.writeText(t).then(ok,()=>fb(t,btn)):fb(t,btn)}
+function fb(t,b){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');b.textContent='Copied ✓'}catch(e){b.textContent='Select and copy manually'}a.remove()}
+const sw=a=>`<div class="sw">${a.map(c=>`<i style="background:${c}" title="${c}"></i>`).join('')}</div>`;
+function pbtn(){document.querySelectorAll('.pb').forEach(b=>b.textContent=lbl('Open template'));document.querySelectorAll('.wbtn').forEach(b=>b.textContent=lbl('Preview & code'))}
+$('#pp').innerHTML=PPT.map((p,i)=>`<div class="card"><span class="tag">Free</span><h3>${p[0]}</h3>${sw([p[1],p[2],p[3]])}<p style="margin:0 0 14px;color:var(--mute);font-size:.9rem">${p[5].length} slides · ${p[4]}</p><button class="btn s pb" onclick="gate(()=>pptOpen(${i}))">Request access</button></div>`).join('');
+function pptSpec(p){return `${p[0]} — Solvexis template\nPalette: ${p[1]} / ${p[2]} / ${p[3]}\nFonts: ${p[4]}\nSlides:\n`+p[5].map((s,i)=>`${i+1}. ${s}`).join('\n')+`\n\n${C}`}
+function pptOpen(i){const p=PPT[i];const h=`<p>Palette</p>${sw([p[1],p[2],p[3]])}<p><b>Typography:</b> ${p[4]}</p><div class="grid" style="margin-top:10px">${p[5].map((s,k)=>`<div style="aspect-ratio:16/9;border-radius:10px;background:${k%3==0?p[1]:p[3]};color:${k%3==0?p[3]:p[1]};border:1px solid var(--line);padding:10px;font:600 .85rem Inter;display:flex;flex-direction:column;justify-content:space-between"><span style="color:${p[2]}">${k+1}</span>${s}</div>`).join('')}</div><h3>Layout guidance</h3><ul><li>One idea per slide, max 30 words.</li><li>Left-align text; keep 8% safe margins.</li><li>Use the accent colour for one focal element only.</li></ul>`;
+doc(p[0]+' Template','Free presentation template',h,`<button class="btn s g" onclick="copy(pptSpec(PPT[${i}]),this)">Copy spec</button>`)}
+function tpl(w){const[n,bg,ac,h,sub,nav]=w;return `<!DOCTYPE html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${n}</title>\n<style>\nbody{margin:0;font:16px/1.6 system-ui,sans-serif;background:${bg};color:#1A1D24}\nnav{display:flex;justify-content:space-between;padding:18px 7%;align-items:center}nav a{margin-left:20px;text-decoration:none;color:inherit}\n.hero{padding:80px 7%}h1{font:700 clamp(2.2rem,6vw,4rem)/1.05 Georgia,serif;margin:0 0 16px}\n.btn{display:inline-block;background:${ac};color:#fff;padding:12px 26px;border-radius:99px;text-decoration:none}\n.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;padding:0 7% 60px}.g div{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 18px rgba(0,0,0,.06)}\nfooter{text-align:center;padding:24px;font-size:.8rem;color:#666}\n</style></head><body>\n<nav><b>${n}</b><span>${nav.map(x=>`<a href="#">${x}</a>`).join('')}</span></nav>\n<div class="hero"><h1>${h}</h1><p>${sub}</p><a class="btn" href="#">Get started</a></div>\n<div class="g"><div><h3>One</h3><p>Describe a key benefit here.</p></div><div><h3>Two</h3><p>Add supporting detail.</p></div><div><h3>Three</h3><p>Show proof or a result.</p></div></div>\n<footer>${C} · by aimen · Template by Solvexis</footer>\n</body></html>`}
+$('#wb').innerHTML=WEB.map((w,i)=>`<div class="card"><span class="tag">Template</span><h3>${w[0]}</h3>${sw([w[1],w[2],'#1A1D24'])}<p style="margin:0 0 14px;color:var(--mute);font-size:.9rem">Hero, feature grid, footer. Responsive.</p><button class="btn s wbtn" onclick="gate(()=>webOpen(${i}))">Request access</button></div>`).join('');
+function webOpen(i){const w=WEB[i],c=tpl(w);window._d=[w[0]+' Template','Website template spec',`<p>Sections: nav, hero, 3-card feature grid, footer. Colors: ${w[1]} / ${w[2]} / #1A1D24.</p><pre>${c.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</pre>`];
+$('#rd').innerHTML=`<div class="eyebrow">Live preview</div><h2>${w[0]}</h2><iframe sandbox title="preview"></iframe><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px"><button class="btn s gold" id="cb">Copy full HTML</button><button class="btn s g" onclick="pdf()">Save spec as PDF</button></div><div class="foot">${C} · by aimen</div>`;
+$('#rd iframe').srcdoc=c;$('#cb').onclick=()=>copy(c,$('#cb'));openM('ov-r')}
+const WEB3KEY="PASTE_YOUR_WEB3FORMS_KEY_HERE",MAIL="aimansiddique944@gmail.com";
+function sendInq(e){e.preventDefault();const s=SV.filter((_,i)=>$('#o'+i).checked).map(x=>x[0]);
+const d={name:$('#fn').value,email:$('#fe').value,services:s.join(', ')||'Not specified',budget:$('#fb').value,details:$('#fd').value};
+const sum=Object.entries(d).map(([k,v])=>k+': '+v).join('\n'),btn=e.target.querySelector('button[type=submit]');btn.disabled=true;
+const fin=ok=>{btn.disabled=false;$('#done').innerHTML=`<div class="ok" style="margin-top:20px"><b>Thank you, ${d.name.replace(/[<>&]/g,'')}.</b> ${ok?'Your request has been sent. We will reply to your email soon.':'Your email app should open with the request ready. Press Send to finish. If it did not open, copy the summary below and email it to '+MAIL+'.'}<pre style="white-space:pre-wrap;font-size:.85rem"></pre><button class="btn s" id="cs">Copy summary</button></div>`;$('#done pre').textContent=sum;$('#cs').onclick=()=>copy(sum,$('#cs'));if(ok)e.target.reset()};
+const mail=()=>{location.href='mailto:'+MAIL+'?subject='+encodeURIComponent('Solvexis inquiry: '+d.services)+'&body='+encodeURIComponent(sum);fin(false)};
+if(WEB3KEY.startsWith('PASTE'))mail();else fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({access_key:WEB3KEY,subject:'Solvexis inquiry: '+d.services,from_name:'Solvexis Website',...d})}).then(r=>r.json()).then(j=>j.success?fin(true):mail()).catch(mail);
+return false}
+drawNotes();
+</script></body></html>
